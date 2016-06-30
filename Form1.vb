@@ -31,6 +31,8 @@
             chat.AddItem("...")
         ElseIf msg.Text.Contains("version") Or msg.Text.Contains("ver") Then
             chat.AddItem("Version: 1.0 alpha. The source code is availible on:" + vbNewLine + "github.com/duckiety/")
+        ElseIf msg.Text.Contains("fuck") Or msg.Text.Contains("shit") Or msg.Text.Contains("nigger") Or msg.Text.Contains("nigga") Or msg.Text.Contains("cunt") Then
+            chat.AddItem("http://giphy.com/gifs/fuck-you-go-yourself-forget-xT0GqCrlLMD42vUq8U")
         End If
     End Sub
     Private Sub Form1_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
@@ -44,5 +46,9 @@
     Private Sub Timer2_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer2.Tick
         status += 1
         FlatStatusBar1.Text = "status: on. Thanks for using VOXL.  " + status.ToString
+    End Sub
+
+    Private Sub msg_KeyDown(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyEventArgs)
+
     End Sub
 End Class
