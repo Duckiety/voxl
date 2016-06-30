@@ -32,12 +32,13 @@
         ElseIf msg.Text.Contains("version") Or msg.Text.Contains("ver") Then
             chat.AddItem("Version: 1.0 alpha. The source code is availible on:" + vbNewLine + "github.com/duckiety/")
         ElseIf msg.Text.Contains("fuck") Or msg.Text.Contains("shit") Or msg.Text.Contains("nigger") Or msg.Text.Contains("nigga") Or msg.Text.Contains("cunt") Then
+            msg.Text = "http://giphy.com/gifs/fuck-you-go-yourself-forget-xT0GqCrlLMD42vUq8U"
+            'chat.items.Clear()
             chat.AddItem("http://giphy.com/gifs/fuck-you-go-yourself-forget-xT0GqCrlLMD42vUq8U")
+            swearprotection.Show()
         End If
     End Sub
     Private Sub Form1_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        Me.TopMost = True
-
         MessageBox.Show("in order for VOXL to detect your message, put a space after your message if you have only put 1 word in. Also, if you click on  a message sent in chat, VOXL automatically copys it for you.")
         Dim size As String = "300,300"
 

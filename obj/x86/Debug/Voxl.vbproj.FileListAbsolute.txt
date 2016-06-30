@@ -18,3 +18,4 @@ C:\Users\Hisham\documents\visual studio 2010\Projects\Voxl\Voxl\obj\x86\Debug\Vo
 C:\Users\Hisham\documents\visual studio 2010\Projects\Voxl\Voxl\obj\x86\Debug\Voxl.Resources.resources
 C:\Users\Hisham\documents\visual studio 2010\Projects\Voxl\Voxl\obj\x86\Debug\Voxl.FormSkin.resources
 C:\Users\Hisham\documents\visual studio 2010\Projects\Voxl\Voxl\obj\x86\Debug\Voxl.vbproj.GenerateResource.Cache
+C:\Users\Hisham\documents\visual studio 2010\Projects\Voxl\Voxl\obj\x86\Debug\Voxl.swearprotection.resources
